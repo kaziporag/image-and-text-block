@@ -1,0 +1,20 @@
+.image-text-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.image-text-block.image-left {
+    flex-direction: row;
+}
+.image-text-block.image-right {
+    flex-direction: row-reverse;
+}
+.image-wrapper img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+.text-wrapper p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
